@@ -1,29 +1,198 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border - box;
+    margin: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalho {
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    height: 110px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+#local_cabecalho {
+    padding-right: 10px;
+    margin-left: auto;
+}
+
+
+#logo_cabecalho {
+    padding-right: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+#lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    width: 48%;
+    height: 750px;
+    float: left;
+    background-color: beige;
+}
+
+.botao_home {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao_home:hover {
+    opacity: 0.7;
+}
+
+#lado_direito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    width: 48%;
+    height: 750px;
+    float: right;
+    background-color: lightgray;
+    color: darkblue;
+}
+
+#video {
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section_local {
+    padding: 2%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+dl {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+dd {
+    text-indent: 30px;
+}
+
+dt span {
+    color: rgb(254, 0, 0);
+    text-decoration: underline;
+}
+
+#logo_whats {
+    position: fixed;
+    bottom: 65px;
+    right: 1%;
+}
+
+#article_filmes {
+    padding: 3%;
+    background-color: beige;
+}
+
+#article_filmes section {
+    display: flex;
+    justify-content: space-around;
+    gap: 17%;
+}
+
+h1 span {
+    color: red;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid purple;
+    border-radius: 7px;
+    width: 300px;
+    height: 600px;
+    align-items: center;
+
+}
+
+#icone_fechar1 {
+    position: absolute;
+    left: 323px;
+    top: 26%;
+    cursor: pointer;
+}
+
+#icone_fechar2 {
+    position: absolute;
+    left: 855px;
+    top: 26%;
+    cursor: pointer;
+}
+
+#icone_fechar3 {
+    position: absolute;
+    left: 1390px;
+    top: 26%;
+    cursor: pointer;
+}
+
+.titulo_filme{
+    padding-top: 7%;
+}
+
+.descricao_filme{
+    padding: 3%;
+    font-weight: bold;
+    color: green;
+    font-size: 14px;
+}
+
+table, 
+caption,
+th,
+td{
+    width: 300px;
+    border: 1px solid purple;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th, td{
     text-align: center;
-
-    font-size: 25px;
-  }
-
-.destaque {
-    border: 10px solid;
-    border-color: rgb(38, 71, 99);
-  }
-#div-destaque {
-  font-size: 35px;
-  font-style: italic;
-  font-weight: 600;
 }
 
-h1 {
-    font-size: 60px;
-  }
-  
-body {
-    background-color: rgb(200, 200, 200);
-  }
-p{
-  text-indent: 3em;
+th{
+    color: brown;
 }
+
+.titulo_verde{
+    color: green;
+}
+
